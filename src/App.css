@@ -1,0 +1,108 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+body{
+  background-color: white;
+}
+.container{
+  padding: 10px;
+  /* background-color: yellow; */
+  max-width: 700px;
+  margin: 50px auto;
+}
+/* .btn-add{
+  border: none;
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  // background-color: green; 
+}
+.btn-add{
+  background: green;
+  color: white;
+} */
+h1{
+  text-align: center;
+  margin-top: 50px;
+  text-color: red;
+  font-style: italic;
+  font-family: monospace;
+  color: blue;
+  font-weight:700;
+}
+.addcontainer{
+  position: absolute;
+  background-color:#777;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addcontainer form{
+  width: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  border-radius:10px;
+}
+.addcontainer form button{
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.close-btn{
+  margin-left: auto;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
