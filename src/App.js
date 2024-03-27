@@ -3,7 +3,9 @@ import './App.css';
 import axios from 'axios';
 import Formdata from './Components/Formdata';
 
-axios.defaults.baseURL = "http://localhost:8080"
+// axios.defaults.baseURL = "http://localhost:8080"
+
+axios.defaults.baseURL = "https://crud-operation-back-end.onrender.com"
 
 function App() {
   const [addSection, setAddSection]= useState(false);
